@@ -1,0 +1,176 @@
+.bef-container {
+    background: url(https://www.evolvetogrow.com.au/wp-content/themes/cb-evolve/images/bef-bg.svg) center no-repeat;
+    margin: 0 auto;
+    width: 695px;
+    height: 680px;
+    margin-block:100px;position: relative
+}
+
+.bef {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute
+}
+
+.bef-fulfiment {
+    background: #02182b;
+    color: #fff;
+    font-size: 18px;
+    padding: 40px;
+    text-align: center;
+    width: 290px;
+    height: 290px;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%
+}
+
+.bef-grad {
+    background: linear-gradient(270deg,#e3b505 0,#f15061 49.73%,#f15061 49.74%,#fc0986 100%);
+    color: #fff;
+    font-size: 12px;
+    height: 150px;
+    width: 150px;
+    transform-origin: center;
+    transition: .4s
+}
+
+.bef-white {
+    background: #fffbff;
+    box-shadow: -30px 4px 80px rgba(34,69,255,.15);
+    color: #06003e;
+    font-size: 12px;
+    font-weight: 800;
+    height: 135px;
+    width: 135px
+}
+
+.bef-freedom {
+    left: 6.04%;
+    right: 72.23%;
+    top: 14.96%;
+    bottom: 62.89%
+}
+
+.bef-clarity {
+    left: 39.71%;
+    right: 40.86%;
+    top: 1.17%;
+    bottom: 79.03%
+}
+
+.bef-results {
+    left: 70.94%;
+    right: 7.34%;
+    top: 14.96%;
+    bottom: 62.89%
+}
+
+.bef-simplify {
+    left: 1.01%;
+    right: 79.57%;
+    top: 52.66%;
+    bottom: 27.54%
+}
+
+.bef-capacity {
+    left: 38.56%;
+    right: 39.71%;
+    top: 81.26%;
+    bottom: -3.41%
+}
+
+.bef-growth {
+    left: 79.57%;
+    right: 1.01%;
+    top: 52.66%;
+    bottom: 27.54%
+}
+
+.bef-container .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    transform: scale(.5);
+    transition: .4s
+}
+
+.bef-container .col {
+    padding: 5px;
+    transition: .4s
+}
+
+.bef-container .col .bef {
+    width: 80px;
+    height: 80px;
+    position: unset;
+    transition: .4s
+}
+
+.bef-col {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.bef-col>.bef {
+    transition: .4s;
+    z-index: 1
+}
+
+.bef-col:hover>.bef {
+    height: 150px;
+    width: 150px
+}
+
+.bef-col:hover .col {
+    padding: 0
+}
+
+.bef-col:hover .row .bef {
+    background: #fc0986;
+    color: #fff;
+    height: 90px;
+    width: 90px
+}
+
+.bef-clarity .row {
+    flex-direction: row;
+    justify-content: center
+}
+
+.bef-clarity .col:nth-child(2) .bef {
+    margin-top: -40px
+}
+
+.bef-simplify .col:nth-child(2) .bef {
+    margin-left: -40px
+}
+
+.bef-growth .col:nth-child(2) .bef {
+    margin-left: 40px
+}
+
+.bef-container:hover .bef-clarity .row {
+    transform: translateY(-100px)
+}
+
+.bef-container:hover .bef-simplify .row {
+    transform: translateX(-100px)
+}
+
+.bef-container:hover .bef-growth .row {
+    transform: translateX(120px)
+}
+
+.bef-grad:hover {
+    height: 180px;
+    width: 180px;
+    margin-left: -15px;
+    margin-top: -15px
+}
